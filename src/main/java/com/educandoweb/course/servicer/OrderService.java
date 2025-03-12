@@ -1,9 +1,7 @@
-package com.educandoweb.course.servecer;
+package com.educandoweb.course.servicer;
 
 import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.entities.User;
 import com.educandoweb.course.repositories.OrderRepository;
-import com.educandoweb.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

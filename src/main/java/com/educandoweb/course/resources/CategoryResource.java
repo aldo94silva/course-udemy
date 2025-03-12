@@ -2,9 +2,7 @@ package com.educandoweb.course.resources;
 
 
 import com.educandoweb.course.entities.Category;
-import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.servecer.CategoryService;
-import com.educandoweb.course.servecer.OrderService;
+import com.educandoweb.course.servicer.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

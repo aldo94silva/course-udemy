@@ -1,4 +1,4 @@
-package com.educandoweb.course.servecer;
+package com.educandoweb.course.servicer;
 
 import com.educandoweb.course.entities.User;
 import com.educandoweb.course.repositories.UserRepository;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserServices {
+public class UserService {
 
     @Autowired
     private UserRepository userRepository;
